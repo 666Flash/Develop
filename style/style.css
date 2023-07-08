@@ -1,0 +1,27 @@
+.error__input {
+    width: 160%;
+    height: 200%;
+    padding: 0 0 0 5%;
+    background-color: #fc6363;
+}
+
+.valid__input {
+    width: 160%;
+    height: 200%;
+    padding: 0 0 0 5%;
+    background-color: white;
+}
+
+.error__input-title {
+    width: 33%;
+    height: 200%;
+    padding: 1%;
+    background-color: #fc6363;
+}
+
+.valid__input-title {
+    width: 33%;
+    height: 200%;
+    padding: 1%;
+    background-color: white;
+}

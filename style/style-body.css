@@ -1,0 +1,469 @@
+.container1{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+.head-nav {
+    width: 100%;
+    position: absolute;
+    padding: 2.5%;
+}
+
+.head-nav__home,
+.head-nav__about,
+.head-nav__work,
+.head-nav__process,
+.head-nav__services,
+.head-nav__testimonials,
+.head-nav__contact {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 1%;
+    color: rgb(78, 92, 95);
+    transition: color 0.5s;
+}
+
+.head-nav__home:hover,
+.head-nav__about:hover,
+.head-nav__work:hover,
+.head-nav__process:hover,
+.head-nav__services:hover,
+.head-nav__testimonials:hover,
+.head-nav__contact:hover {
+    color: rgb(142, 218, 218);
+}
+
+.head {
+    max-width:100%;
+    height:auto;
+    padding: 0 0 15% 0;
+    background-image: url('../pages/home-picture.png');
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+.head__main {
+    text-align: left;
+    padding: 17% 10% 0 56%;
+}
+
+.head__title {
+    font-weight: 700;
+}
+
+.head__text {
+    font-weight: 500;
+    padding: 5% 0;
+}
+
+.head__button {
+    font-weight: 500;
+    padding: 3% 10%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(16, 201, 195);
+    border: 1px solid rgb(16, 201, 195);
+}
+
+.aboutus {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.aboutus__title {
+    padding: 8% 0 3% 0;
+}
+
+.aboutus__text {
+    margin-bottom: 0;
+}
+
+.aboutus__img {
+    padding: 3% 0 6% 0;
+}
+
+.skillset {
+    max-width:100%;
+    height:auto;
+    padding: 10% 0 16% 7%;
+    background-image: url('../pages/professional-skills.png');
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+.skillset__title {
+    font-weight: 700;
+    padding: 0 0 2% 0;
+}
+
+.skill__name {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 1.5%;
+    margin-bottom: 0.5%;
+}
+
+.skill__progress {
+    width: 40%;
+    border: 1px solid rgb(166, 166, 166);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.skill__value--ui-ux-design, 
+.skill__value--web-development,
+.skill__value--marketing {
+    padding: 1% 0 0 0;
+    background-color: rgb(16, 201, 192);
+}
+
+.skill__value--ui-ux-design {
+    width: 75%;
+}
+
+.skill__value--web-development {
+    width: 90%;
+}
+
+.skill__value--marketing {
+    width: 65%;
+}
+
+.testimonials {
+    width: 100%;
+    background-color: rgb(16, 201, 192);
+    padding: 6% 0 2% 0;
+}
+
+.container4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.testimonials__countslice {
+    padding: 0 0.5% 5% 6%;
+}
+
+.testimonials__inventory {
+    padding: 0 6% 5% 0.5%;
+}
+
+.testimonials__text {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-block-end: 0;
+}
+
+.container5 {
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.work-product__letter {
+    padding: 0 24.9% 21.9% 0;
+    background-image: url('../pages/product/product-letter.png');        
+    background-size: cover;
+    background-repeat:no-repeat;
+    transition: all;
+}
+
+.work-product__smartfon {
+    padding: 0 24.9% 21.9% 0;
+    background-image: url('../pages/product/product-smartfon.png');        
+    background-size: cover;
+    background-repeat:no-repeat;
+    transition: all;
+}
+
+.work-product__package {
+    padding: 0 24.9% 21.9% 0;
+    background-image: url('../pages/product/product-package.png');        
+    background-size: cover;
+    background-repeat:no-repeat;
+    transition: all;
+}
+
+.work-product__book {
+    padding: 0 24.9% 21.9% 0;
+    background-image: url('../pages/product/product-book.png');        
+    background-size: cover;
+    background-repeat:no-repeat;
+    transition: all;
+}
+
+.work-product__glass {
+    padding: 0 24.9% 21.9% 0;
+    background-image: url('../pages/product/product-glass.png');        
+    background-size: cover;
+    background-repeat:no-repeat;
+    transition: all;
+}
+
+.work-product__peiper-package {
+    padding: 0 24.9% 21.9% 0;
+    background-image: url('../pages/product/product-peiper-package.png');        
+    background-size: cover;
+    background-repeat:no-repeat;
+    transition: all;
+}
+
+.work-product__hi-ho-ney {
+    padding: 0 24.9% 21.9% 0;
+    background-image: url('../pages/product/product-hi-ho-ney.png');        
+    background-size: cover;
+    background-repeat:no-repeat;
+    transition: all;
+}
+
+.work-product__she {
+    padding: 0 24.9% 21.9% 0;
+    background-image: url('../pages/product/product-she.png');        
+    background-size: cover;
+    background-repeat:no-repeat;
+    transition: all;
+}
+
+.work-product__letter:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../pages/product/product-eyes.png'), url('../pages/product/product-letter.png');        
+}
+
+.work-product__smartfon:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../pages/product/product-eyes.png'), url('../pages/product/product-smartfon.png');        
+}
+
+.work-product__package:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../pages/product/product-eyes.png'), url('../pages/product/product-package.png');        
+}
+
+.work-product__book:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../pages/product/product-eyes.png'), url('../pages/product/product-book.png');        
+}
+
+.work-product__glass:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../pages/product/product-eyes.png'), url('../pages/product/product-glass.png');        
+}
+
+.work-product__peiper-package:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../pages/product/product-eyes.png'), url('../pages/product/product-peiper-package.png');        
+}
+
+.work-product__hi-ho-ney:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../pages/product/product-eyes.png'), url('../pages/product/product-hi-ho-ney.png');        
+}
+
+.work-product__she:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../pages/product/product-eyes.png'), url('../pages/product/product-she.png');        
+}
+  
+.morework__text {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 3%;
+    color: rgb(166, 166, 166);
+    background-color: rgb(245, 245, 245);
+}
+
+.process {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.process__title {
+    padding: 8% 0 3% 0;
+}
+
+.process__text {
+    margin-bottom: 0;
+}
+
+.movie__video {
+    width: 100%;
+    height: 1400px;
+    padding: 4% 6% 8%;
+}
+
+.container8{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.services {
+    width: 100%;
+    text-align: center;
+    padding: 5%;
+    background-color: rgb(245, 245, 245);
+}
+
+.services__groups {
+    font-size: large;
+    padding: 6%;
+}
+
+@media screen and (min-width: 710px) and (max-width: 1100px ) {
+    .services__groups {
+        font-size: large;
+        padding: 4%;
+    }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1230px ) {
+    .services__groups {
+        font-size: small;
+        padding: 3%;
+    }
+}
+
+@media screen and (min-width: 1230px) and (max-width: 1480px ) {
+    .services__groups {
+        font-size: smaller;
+        padding: 4%;
+    }
+}
+
+@media screen and (min-width: 1480px ) and (max-width: 1950px ) {
+    .services__groups {
+        font-size: inherit;
+        padding: 4%;
+    }
+}
+
+@media screen and (min-width: 1950px ) {
+    .services__groups {
+        font-size: x-large;
+        padding: 4%;
+    }
+}
+
+.services__title {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+.services__text {
+    margin-block-end: 0;
+}
+
+.ticker {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(16, 201, 192);
+    padding: 10% 0 0 0;
+}
+
+.ticker__text {
+    font-size: x-large;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.ticker__author {
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 1%;
+}
+
+.container9{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ticker__slider {
+    padding: 7% 0 4% 0;
+}
+
+.ticker__slider1,
+.ticker__slider3 {
+    background-color: rgb(178, 233, 228);
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    margin: 3px 13px 0 13px;
+}
+
+.ticker__slider2 {
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+}
+
+.container10{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.figure__brend {
+    padding: 3% 5%;
+    background-color: rgb(255, 255, 255);
+}
+
+.need-project {
+    text-align: center;
+    padding: 7%;
+    background-color: rgb(245, 245, 245);
+}
+.need-project__title {
+    padding: 1% 0 2% 0;
+}
+        
+.need-project__text {
+    margin-bottom: 0;
+}
+
+.container11{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-form__name,
+.project-form__email {
+    padding: 4% 9% 4% 1%;
+}
+
+.project-form__input {
+    width: 160%;
+    height: 200%;
+    padding: 0 0 0 5%;
+}
+
+.project-form__title {
+    padding: 0 0 2% 0;
+}
+
+.project-form__input-title {
+    width: 33%;
+    height: 200%;
+    padding: 1%;
+}
+
+.project-form__comment {
+    padding: 0 0 2% 0;
+}
+
+.project-form__input-comment {
+    width: 33%;
+    height: 200%;
+    padding: 1% 0 10% 1%;
+}
+
+.project-form__button {
+    font-weight: 500;
+    padding: 1.5% 3%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(16, 201, 195);
+    border: 1px solid rgb(16, 201, 195);
+}

@@ -1,0 +1,48 @@
+.container12 {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer {
+    padding: 5%;
+    color: rgb(188, 188, 188);
+    background-color: rgb(20, 20, 20);
+}
+
+.footer__diteils,
+.footer__mail-phone,
+.footer__projects-carreer,
+.footer__news-contact,
+.footer__social-networks {
+    margin: 1% 1%;
+}
+
+.footer__diteils {
+    padding: 0 10% 0 0;
+}
+
+.footer__mail-phone {
+    padding: 0 5%;
+}
+
+.footer__projects-carreer {
+    padding: 0 0 0 10%;
+}
+
+.footer__social-networks {
+    padding: 0 0 0 10%;
+}
+
+.footer__title {
+    color: rgb(254, 254, 254);
+}
+
+.footer__link {
+    display: block;
+    text-decoration: none;
+    color: rgb(188, 188, 188);
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
